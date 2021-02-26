@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F70121E25E7C0B900099109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70121D25E7C0B900099109 /* AppDelegate.swift */; };
+		4F70122025E7C0B900099109 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70121F25E7C0B900099109 /* SceneDelegate.swift */; };
+		4F70122225E7C0B900099109 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70122125E7C0B900099109 /* AuthViewController.swift */; };
+		4F70122725E7C0B900099109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F70122625E7C0B900099109 /* Assets.xcassets */; };
+		4F70122A25E7C0B900099109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F70122825E7C0B900099109 /* LaunchScreen.storyboard */; };
+		4F70123A25E7C41A00099109 /* VKSdkFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F70123925E7C41A00099109 /* VKSdkFramework.framework */; };
+		4F70123B25E7C41A00099109 /* VKSdkFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4F70123925E7C41A00099109 /* VKSdkFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4F70123D25E7C70000099109 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70123C25E7C70000099109 /* AuthService.swift */; };
+		4F70124025E7C98200099109 /* AuthViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F70123F25E7C98200099109 /* AuthViewController.storyboard */; };
+		4F70124225E7D7EF00099109 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F70124125E7D7EF00099109 /* FeedViewController.swift */; };
+		4F70124425E7D7FE00099109 /* FeedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F70124325E7D7FE00099109 /* FeedViewController.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F70123725E7C26300099109 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4F70123B25E7C41A00099109 /* VKSdkFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4F70121A25E7C0B800099109 /* VKNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F70121D25E7C0B900099109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F70121F25E7C0B900099109 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F70122125E7C0B900099109 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		4F70122625E7C0B900099109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F70122925E7C0B900099109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F70122B25E7C0B900099109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F70123925E7C41A00099109 /* VKSdkFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdkFramework.framework; path = "Carthage/Build/VKSdkFramework.xcframework/ios-arm64_i386_x86_64-simulator/VKSdkFramework.framework"; sourceTree = "<group>"; };
+		4F70123C25E7C70000099109 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		4F70123F25E7C98200099109 /* AuthViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AuthViewController.storyboard; sourceTree = "<group>"; };
+		4F70124125E7D7EF00099109 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4F70124325E7D7FE00099109 /* FeedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FeedViewController.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F70121725E7C0B800099109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70123A25E7C41A00099109 /* VKSdkFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F70121125E7C0B800099109 = {
+			isa = PBXGroup;
+			children = (
+				4F70121C25E7C0B800099109 /* VKNews */,
+				4F70121B25E7C0B800099109 /* Products */,
+				4F70123825E7C41A00099109 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F70121B25E7C0B800099109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F70121A25E7C0B800099109 /* VKNews.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F70121C25E7C0B800099109 /* VKNews */ = {
+			isa = PBXGroup;
+			children = (
+				4F70121D25E7C0B900099109 /* AppDelegate.swift */,
+				4F70121F25E7C0B900099109 /* SceneDelegate.swift */,
+				4F70124525E7D88700099109 /* FeedViewController */,
+				4F70123E25E7C73600099109 /* Services */,
+				4F70124625E7D8AC00099109 /* Auth */,
+				4F70122625E7C0B900099109 /* Assets.xcassets */,
+				4F70122825E7C0B900099109 /* LaunchScreen.storyboard */,
+				4F70122B25E7C0B900099109 /* Info.plist */,
+			);
+			path = VKNews;
+			sourceTree = "<group>";
+		};
+		4F70123825E7C41A00099109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F70123925E7C41A00099109 /* VKSdkFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F70123E25E7C73600099109 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F70123C25E7C70000099109 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4F70124525E7D88700099109 /* FeedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F70124125E7D7EF00099109 /* FeedViewController.swift */,
+				4F70124325E7D7FE00099109 /* FeedViewController.storyboard */,
+			);
+			path = FeedViewController;
+			sourceTree = "<group>";
+		};
+		4F70124625E7D8AC00099109 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				4F70122125E7C0B900099109 /* AuthViewController.swift */,
+				4F70123F25E7C98200099109 /* AuthViewController.storyboard */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F70121925E7C0B800099109 /* VKNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F70122E25E7C0B900099109 /* Build configuration list for PBXNativeTarget "VKNews" */;
+			buildPhases = (
+				4F70121625E7C0B800099109 /* Sources */,
+				4F70121725E7C0B800099109 /* Frameworks */,
+				4F70121825E7C0B800099109 /* Resources */,
+				4F70123225E7C1EA00099109 /* ShellScript */,
+				4F70123725E7C26300099109 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKNews;
+			productName = VKNews;
+			productReference = 4F70121A25E7C0B800099109 /* VKNews.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F70121225E7C0B800099109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4F70121925E7C0B800099109 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4F70121525E7C0B800099109 /* Build configuration list for PBXProject "VKNews" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F70121125E7C0B800099109;
+			productRefGroup = 4F70121B25E7C0B800099109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F70121925E7C0B800099109 /* VKNews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F70121825E7C0B800099109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70122A25E7C0B900099109 /* LaunchScreen.storyboard in Resources */,
+				4F70124025E7C98200099109 /* AuthViewController.storyboard in Resources */,
+				4F70122725E7C0B900099109 /* Assets.xcassets in Resources */,
+				4F70124425E7D7FE00099109 /* FeedViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F70123225E7C1EA00099109 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/VKSdkFramework.xcframework/ios-arm64_i386_x86_64-simulator/VKSdkFramework.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F70121625E7C0B800099109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F70122225E7C0B900099109 /* AuthViewController.swift in Sources */,
+				4F70121E25E7C0B900099109 /* AppDelegate.swift in Sources */,
+				4F70124225E7D7EF00099109 /* FeedViewController.swift in Sources */,
+				4F70122025E7C0B900099109 /* SceneDelegate.swift in Sources */,
+				4F70123D25E7C70000099109 /* AuthService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F70122825E7C0B900099109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F70122925E7C0B900099109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F70122C25E7C0B900099109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F70122D25E7C0B900099109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F70122F25E7C0B900099109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6MPFAH7N2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/VKSdkFramework.xcframework/ios-arm64_i386_x86_64-simulator",
+				);
+				INFOPLIST_FILE = VKNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ivanic6666.VKNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F70123025E7C0B900099109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V6MPFAH7N2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/VKSdkFramework.xcframework/ios-arm64_i386_x86_64-simulator",
+				);
+				INFOPLIST_FILE = VKNews/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ivanic6666.VKNews;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F70121525E7C0B800099109 /* Build configuration list for PBXProject "VKNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F70122C25E7C0B900099109 /* Debug */,
+				4F70122D25E7C0B900099109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F70122E25E7C0B900099109 /* Build configuration list for PBXNativeTarget "VKNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F70122F25E7C0B900099109 /* Debug */,
+				4F70123025E7C0B900099109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F70121225E7C0B800099109 /* Project object */;
+}
